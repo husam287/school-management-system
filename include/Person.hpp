@@ -1,11 +1,7 @@
 #pragma once
+#include <string>
+#include "InfoStruct.hpp"
 using namespace std;
-
-struct Info
-{
-    string firstname, lastname="", phone="";
-    int age, id=-1;
-};
 
 class Person
 { 
@@ -26,5 +22,5 @@ public:
     void setInfo(Info info);
 
     /* Methods */
-    void printInfo();
+    virtual void printInfo();
 };

@@ -1,6 +1,5 @@
 #include <iostream>
 #include "Person.hpp"
-using namespace std;
 
 /* Static variables */
 int Person::totalNumber = 0;
